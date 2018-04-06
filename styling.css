@@ -76,3 +76,18 @@ a {
 	font-size:0.9em;
 	display: inline-block;
 }
+
+.skillBar {
+	margin: 0px !important;
+	width: 250px;
+	height: 20px;
+	color: green;
+}
+
+.skillBar::-moz-progress-bar {
+	background-color: green;
+}
+
+.skillbar::-webkit-progress-value {
+	background-color: green;
+}

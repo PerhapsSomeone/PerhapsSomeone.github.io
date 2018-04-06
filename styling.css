@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500');
+*/
 
 * {
 	box-sizing: border-box;
@@ -42,6 +43,14 @@ li a {
 
 li a:hover:not(.active) {
 	background-color: #111;
+}
+
+.updateList {
+	background-color: white !important; 
+	text-align: center !important;
+	float: none;
+	list-style-type: upper-roman;
+	border-right: 0px;
 }
 
 .active {

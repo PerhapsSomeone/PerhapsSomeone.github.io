@@ -53,6 +53,10 @@ li a:hover:not(.active) {
 	border-right: 0px;
 }
 
+.featuredProject {
+	float: right !important;
+}
+
 .active {
 	background-color: #4CAF50;
 }
